@@ -22,6 +22,6 @@ function trocaridioma(){
         el.textContent = t[chave];
     })
      document.getElementById('trocaridiomaBtn').textContent =
-        idiomaAtual === 'pt' ? 'português' : 'English';
+        idiomaAtual === 'pt' ? 'Change to English' : ' Mude para português';
 }
 document.getElementById('trocaridiomaBtn').addEventListener('click', trocaridioma);

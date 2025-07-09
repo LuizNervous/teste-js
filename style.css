@@ -10,10 +10,15 @@ header{
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 200px;
+  height: 140px;
 }
 main{
-  margin: 30px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column  ;
+  align-items: center;
+  margin: 30px  ;
+  height: 300px;
 }
 footer{
   display: flex;
@@ -21,13 +26,13 @@ footer{
   align-items: center;
   color: white;
   background-color: rgba(0, 0, 0, 0.76);
-  height: 200px;
+  height: 140px;
 }
 button{
   padding: 20px;
-  width: 120px;
+  width: 190px;
   background-color: darkblue;
-  color: blueviolet;
+  color: rgb(208, 245, 252);
 }
 button:hover{
   background-color: rgb(37, 108, 201);
